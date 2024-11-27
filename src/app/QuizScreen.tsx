@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+
+import QuestionCard from '@/components/QuestionCard';
 
 const QuizScreen = () => {
   return (
@@ -12,7 +14,7 @@ const QuizScreen = () => {
         padding: 20,
       }}
     >
-      <Text>QuizScreen</Text>
+      <QuestionCard />
     </View>
   );
 };
