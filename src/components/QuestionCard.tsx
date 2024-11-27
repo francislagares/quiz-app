@@ -2,10 +2,19 @@ import React from 'react';
 
 import { StyleSheet, Text, View } from 'react-native';
 
+import AnswerOption from './AnswerOption';
+
 const QuestionCard = () => {
   return (
     <View style={styles.questionCard}>
       <Text style={styles.question}>What is React Native ?</Text>
+
+      <View style={{ gap: 10 }}>
+        <AnswerOption />
+        <AnswerOption />
+        <AnswerOption />
+        <AnswerOption />
+      </View>
     </View>
   );
 };
