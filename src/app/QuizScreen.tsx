@@ -1,5 +1,5 @@
+import { FontAwesome6 } from '@expo/vector-icons';
 import { Pressable, SafeAreaView, StyleSheet, Text, View } from 'react-native';
-import FontAwesome6 from 'react-native-vector-icons/FontAwesome6';
 
 import QuestionCard from '@/components/QuestionCard';
 
